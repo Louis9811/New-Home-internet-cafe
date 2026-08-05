@@ -576,7 +576,7 @@ textarea:focus-visible,
 /* ---------- Category cards (homepage service preview) ---------- */
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.4rem;
 }
 
@@ -1004,6 +1004,19 @@ textarea:focus-visible,
   display: flex;
   gap: 0.9rem;
   flex-wrap: wrap;
+}
+
+.cta-band .btn-outline {
+  border-color: rgba(255, 255, 255, 0.65);
+  color: var(--white);
+}
+
+.cta-band .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.cta-band .eyebrow {
+  color: var(--accent);
 }
 
 /* ---------- Footer ---------- */
